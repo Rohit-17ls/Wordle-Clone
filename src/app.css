@@ -1,0 +1,25 @@
+.grad-color{
+  /* background : -webkit-linear-gradient(-60deg,#8700ff 0,#ff009e 100%); */
+  font-size: inherit;
+  background-image : linear-gradient(to right,#ff009e,#8700ff);
+  background-clip: text;
+  color: transparent;
+}
+
+.grad-border{
+  border-image : linear-gradient(to right,#ff009e,#8700ff) 1;
+}
+
+.exist-border{
+    border-image: linear-gradient(to right,#00ff6e, green) 1;
+}
+
+.incorrect-border{
+    border-image: linear-gradient(to right, crimson, #fb040465) 1;
+}
+
+
+/* .grad-color:hover{
+  background-image : linear-gradient(to right,#8700ff, #ff009e);
+
+} */
